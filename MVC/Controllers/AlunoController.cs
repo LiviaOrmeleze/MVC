@@ -11,7 +11,7 @@ namespace MVC.Controllers
             Aluno a2 = new Aluno(2, "Gabriela Siqueira Caputti", "bibibis@gmail.com", 6773);
             Aluno a3 = new Aluno(3, "Ana Clara de Souza", "aninhafedida@gmail.com", 7736);
             Aluno a4 = new Aluno(4, "Bryan Martins Fusco", "ratinquerqueijo@gmail.com", 7376);
-            Aluno a5 = new Aluno(5, "~João Pedro Milani", "jpobrabo@gmail.com", 7763);
+            Aluno a5 = new Aluno(5, "João Pedro Milani", "jpobrabo@gmail.com", 7763);
 
             //Criar uma lista de Alunos
             List<Aluno> ListaAlunos = new List<Aluno>();

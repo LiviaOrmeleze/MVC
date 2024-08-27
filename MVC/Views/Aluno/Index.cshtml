@@ -13,4 +13,17 @@
         </tr>
     </thead>
 
+    <!-- Laço de Repetição foreach para listar todos os elementos da lista de aluno-->
+    <tbody>
+        @foreach (var aluno in Model)
+        {
+            <tr>
+                <td>@aluno.AlunoId</td>
+                <td>@aluno.Nome</td>
+                <td>@aluno.Email</td>
+                <td>@aluno.RM</td>
+            </tr>
+        }
+    </tbody>
+
 </table>
